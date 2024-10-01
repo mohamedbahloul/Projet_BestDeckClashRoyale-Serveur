@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hbase": "^0.6.1",
+    "hbase-client": "^1.7.0",
+    "hbase-rpc-client": "^0.1.15",
+    "mongodb": "^6.3.0",
+    "node-addon-api": "^7.0.0",
+    "zookeeper-client": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
